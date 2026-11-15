@@ -1,0 +1,14 @@
+# Secrets — never commit
+.env
+keys/
+*.key
+private-key.pem
+server/.tokens.json
+
+# Data / Python
+server/data/
+*.sqlite
+*.db
+__pycache__/
+.venv/
+.DS_Store
